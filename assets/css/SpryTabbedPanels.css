@@ -1,0 +1,124 @@
+@charset "UTF-8";
+.TabbedPanels {
+	overflow:hidden;
+	margin:0px;
+	padding:0px;
+	clear:none;
+	width:100%;
+}
+.TabbedPanelsTabGroup {
+	margin:0px;
+	padding:0px;
+}
+.TabbedPanelsTab {
+	position:relative;
+	top:1px;
+	float:left;
+	padding:10px 18px;
+	margin:0px 1px 0px 0px;
+	/*	background-color:#fff;
+	*/
+	background-color:yellow;
+	list-style:none;
+	border-left:solid 0px #CCC;
+	border-bottom:solid 0px #999;
+	border-top:solid 0px #999;
+	border-right:solid 0px #999;
+	-moz-user-select:none;
+	-khtml-user-select:none;
+	font-family:"ralewaybold";
+	font-size:15px;
+	color:#000;
+	cursor:pointer;
+	border-radius:4px;
+	margin-right:10px;
+}
+.TabbedPanelsTabHover {
+	background-color:#fff;
+}
+.TabbedPanelsTabSelected {
+	background-color:#e01212;
+	border-bottom:0px solid #e01212;
+	color:#fff;
+}
+.TabbedPanelsTabSelected a {
+	color:#999;
+}
+.TabbedPanelsTab a {
+	color:#fff;
+	text-decoration:none;
+}
+*/
+.TabbedPanelsTab a:hover {
+	text-decoration:none;
+	color:#fff;
+}
+.TabbedPanelsContentGroup {
+	clear:both;
+	border-left:solid 0px #CCC;
+	border-bottom:solid 0px #CCC;
+	border-top:solid 0px #999;
+	border-right:solid 0px #999;
+	background-color:#fff;
+}
+.TabbedPanelsContent {
+	overflow:hidden;
+	padding:4px;
+}
+#TabbedPanels2 .TabbedPanelsContent {
+	padding-bottom:30px;
+}
+
+.VTabbedPanels {
+	overflow:hidden;
+	zoom:1;
+}
+.VTabbedPanels .TabbedPanelsTabGroup {
+	float:left;
+	width:10em;
+	height:20em;
+	background-color:#EEE;
+	position:relative;
+	border-top:solid 0px #999;
+	border-right:solid 0px #999;
+	border-left:solid 0px #CCC;
+	border-bottom:solid 0px #CCC;
+}
+.VTabbedPanels .TabbedPanelsTab {
+	float:none;
+	margin:0px;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+}
+.VTabbedPanels .TabbedPanelsTabSelected {
+	background-color:#EEE;
+	border-bottom:solid 0px #999;
+}
+.VTabbedPanels .TabbedPanelsContentGroup {
+	clear:none;
+	float:left;
+	padding:0px;
+	width:30em;
+	height:20em;
+}
+@media print {
+	.TabbedPanels {
+	overflow:visible !important;
+}
+.TabbedPanelsContentGroup {
+	display:block !important;
+	overflow:visible !important;
+	height:auto !important;
+}
+.TabbedPanelsContent {
+	overflow:visible !important;
+	display:block !important;
+	clear:both !important;
+}
+.TabbedPanelsTab {
+	overflow:visible !important;
+	display:block !important;
+	clear:both !important;
+}
+}
