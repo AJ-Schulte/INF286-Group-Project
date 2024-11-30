@@ -63,13 +63,6 @@
 <link href="assets/css/demofb3d.css?v=.08" rel="stylesheet" type="text/css" />
 <link href="assets/css/pushy.css" rel="stylesheet" type="text/css" />
 
-<script type="text/javascript">
-var url="index.html";
-var time='02:21 PM';
-</script>
-<script type='text/javascript'>
-
-</script>
   
   <style>
   .TabbedPanels {
@@ -113,6 +106,59 @@ var time='02:21 PM';
 .VTabbedPanels {
   overflow: hidden;
   zoom: 1;
+}
+.section1 {
+	float:left;
+	padding:20px 0;
+	text-align:center;
+	width:100%;
+}
+.section1 h1 {
+	float:left;
+	font-family:"Raleway";
+	font-size:40px;
+	margin-bottom:40px;
+	width:100%;
+}
+.section1 h1 span {
+	font-size:44px;
+	font-family:"ralewaybold";
+	width:100%;
+	float:left;
+	color:#e01212;
+}
+.section1 .left-part {
+	/*background:rgb(224,18,18);
+	border-radius:13px;
+	*/ float:left;
+	padding:10px 0 0 10px;
+	text-align:left;
+  margin-left: 15px;
+	width:30%;
+}
+.section1 .left-part img {
+	width:100%;
+  border: black 1px solid;
+}
+.section1 .right-part {
+	float:right;
+	text-align:left;
+	width:50%;
+	font-size:18px;
+	color:#808080;
+	line-height:25px;
+	margin-top:22px;
+}
+.section1 .right-part h2 {
+	font-size:28px;
+	color:#e01212;
+	font-family:"ralewaybold";
+	padding-bottom:20px;
+}
+.section1 .right-part p {
+	float:left;
+	width:100%;
+	margin-bottom:20px;
 }
   </style>
 </head>
@@ -161,44 +207,56 @@ var time='02:21 PM';
   <div class="site-overlay"></div>
   <div id="container">
   <div class="top-mobile-header">
-    <button class="menu-btn"><img src="img/nav-icon.png" alt=""/></button>
+    <span class="menu-btn"><a href="mhome.html"><img src="img/home.png" alt=""/></a></span>
     <span class="logo-div"><a href="mhome.html"><img src="img/m_logo.png" alt="" height="29px" /></a></span> 
     <span class="cart-div"><a href="mmenu.html"><img src="img/cart-icon.png" alt=""/> <span class="num cart-sec">0</span></a></span>
   </div>
     <!-- Your Content -->	
 
-   	<script type="text/javascript" > 
-   		function openTip(){ 
-   			document.getElementById('TB_window').style.display=''; 
-   		} 
-   		function closeTip(){ 
-   			document.getElementById('TB_window').style.display='none'; 
-   		} 
-   	</script> 
-  
-     			<div id="TB_window" style="display:none; width:355px; border:yellow 2px solid; background:#ffffff; color:#000000; z-index:999; position:absolute; top:280px; left:10px;"> 
-   					<div style="background-color:yellow; text-align:right;width:100%;height:20px;line-height:20px;"> 
-  					<a href="javascript:closeTip();" style="text-decoration:none;margin:0px 5px;"><b style=" color:#000000; font-size:15px;">X</b></a> 
-  					</div> 
-   					<div style="padding:10px; line-height:200%; "> 
-   					<center style="font-size:20px; color:red; font-weight:bold;">Notice</center> 
-  					<p style="text-align:left; font-size:15px;">Dear Valued Customer:</p>
-  					<p style="text-align:left; font-size:15px;" > or <b style="font-size:18px;">simply order take out online at our website:<br/><a href="https://***.com" style="font-size:25px; font-weight:bold; text-decoration:underline;">www.***.com</a></b>
-   					<br/> 
-   					</div> 
-   			</div>
+  <script type="text/javascript" > 
+    function openTip(){ 
+      document.getElementById('TB_window').style.display=''; 
+    } 
+    function closeTip(){ 
+      document.getElementById('TB_window').style.display='none'; 
+    } 
+  </script> 
 
-
-
-  <div style="font-size:20px; text-align:center; line-height:160%;">
-  <h3>Shanghai Garden Chinese Restaurant</h3>
-  <span style="color:blue;"><b>Hunan , Szechuan , Mandarin , NY style</span></b><br/>
-  <span style="color:green;"><b>Pick Up & Dine In</b></span><br/>
-  <i>Tel: 859-384-8300</i><br/>
-  <i>8761 US-42, Union, KY 41091</i><br/>
-  <a href="mmenu.html" style="font-size:27px; color:red; background-color:yellow;"><u><b>Click to Order Online >></b></u></a>
+  <div id="TB_window" style="display:none; width:355px; border:yellow 2px solid; background:#ffffff; color:#000000; z-index:999; position:absolute; top:280px; left:10px;"> 
+    <div style="background-color:yellow; text-align:right;width:100%;height:20px;line-height:20px;"> 
+      <a href="javascript:closeTip();" style="text-decoration:none;margin:0px 5px;"><b style=" color:#000000; font-size:15px;">X</b></a> 
+    </div> 
+    <div style="padding:10px; line-height:200%; "> 
+      <center style="font-size:20px; color:red; font-weight:bold;">Notice</center> 
+      <p style="text-align:left; font-size:15px;">Dear Valued Customer:</p>
+      <p style="text-align:left; font-size:15px;" > or <b style="font-size:18px;">simply order take out online at our website:<br/><a href="https://***.com" style="font-size:25px; font-weight:bold; text-decoration:underline;">www.***.com</a></b>
+      <br/> 
+    </div> 
   </div>
+
   <!-- <br/><center><a href="javascript:openTip();" style="text-decoration:none;margin:0px 5px;"><b style=" color:purple; font-size:17px;">View Notice >></b></a></center> -->
+
+  <div class="section1">
+    <h1>
+      <span> Welcome to Shanghai Garden Chinese Restaurant</span>
+      Hunan , Szechuan , Mandarin , NY style
+      <span style="color:green;"><b>Pick Up & Dine In</b></span><br/>
+      <i>Tel: 859-384-8300</i><br/>
+      <i>8761 US-42, Union, KY 41091</i><br/>
+      <a href="mmenu.html" style="font-size:27px; color:red; background-color:yellow;"><u><b>Click to Order Online >></b></u></a>
+    </h1>
+    <div class="left-part" style="float: left; margin-left: 10%;">
+      <img src="img/img1.png">
+    </div>
+    <div class="right-part">
+      <p>
+        Thank you for choosing Shanghai Garden Restaurant in Union... the unique approach to Chinese cooking. Shanghai Garden is a traditional Chinese restaurant. Each distinctive dish is handcrafted to order in our immaculate, open kitchen, prepared with only the finest and freshest ingredients. Our combination Asian cooking techniques allow us to create exceptional pan-Asian cuisine!
+      </p>
+      <p>
+        At Shanghai Garden, you'll always discover more than you expect. Shanghai Garden strives to preserve the best time-honored cooking traditions while providing a fresh, flavorful alternative for today's connoisseur.
+      </p>
+    </div>
+  </div>
 
   <div class="inner-content-mobilesec">
     <ul>
